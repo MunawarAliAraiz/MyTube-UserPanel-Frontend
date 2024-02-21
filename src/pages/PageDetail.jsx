@@ -23,7 +23,7 @@ const PageDetail = () => {
     <div className="container mx-auto p-4">
 
       {/* Back to Home Link */}
-      <p className="text-blue-500 cursor-pointer" onClick={() => navigate(`/`)}>
+      <p className="text-blue-500 cursor-pointer" onClick={() => navigate(`/home`)}>
         ← Back to All Pages
       </p>
 
